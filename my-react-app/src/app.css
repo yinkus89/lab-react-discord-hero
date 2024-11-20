@@ -1,57 +1,64 @@
-/* src/App.css */
-
-.App {
-  text-align: center;
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
 body {
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
-  background-color: #2f3136; /* Optional background color */
+  background-color: #f6f6f7;
 }
 
-.hero {
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-section {
   text-align: center;
-  padding: 50px;
-  color: white;
-  background-size: cover;
-  background-position: center;
-  height: 100vh; /* Full viewport height */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.logo {
-  width: 150px;
-  margin-bottom: 20px;
+.discord-logo {
+  max-width: 200px;
 }
 
-.hero-title {
-  font-family: "Poppins", sans-serif;
+h1 {
+  font-family: 'Poppins', sans-serif;
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 48px;
   margin: 20px 0;
 }
 
-.hero-description {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
+p {
+  font-size: 18px;
+  color: #6a6f73;
 }
 
-.btn-primary {
+button {
   background-color: #7289da;
   color: white;
   padding: 10px 20px;
+  font-size: 16px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 1rem;
-}
-
-.btn-primary:hover {
-  background-color: #5b6eae;
-}
-
-.menu-icon {
-  width: 40px; /* Adjust size as needed */
   margin-top: 20px;
+}
+
+button:hover {
+  background-color: #5a6fb1;
+}
+
+.hero-image {
+  width: 100%;
+  margin-top: 20px;
+  max-width: 1200px;
 }
